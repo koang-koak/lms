@@ -1,38 +1,37 @@
-# SpendWise Budget Tracker
 
-SpendWise is an interactive budgeting application built using HTML, CSS, and JavaScript.
+# SpendWise
 
-## Improvements Made This Week
+## Project Description
+SpendWise is a web application designed to help users manage
+their personal finances, track expenses, and monitor spending.
 
-This week, SpendWise was improved by adding JavaScript functionality to make the application interactive.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Git and GitHub
+- Netlify
 
-The application now allows users to:
+## GitHub Repository
+https://github.com/koang-koak/lms.git
 
-- Set a budget.
-- Add multiple expenses.
-- Select an expense category.
-- View total spending.
-- View the remaining budget.
-- Delete expenses.
-- Receive feedback based on their budget status.
-- See expense records directly on the webpage.
+## Live Website
+https://spendwisen.netlify.app
 
-## 1. Decision Making and Conditionals
+## Deployment Process
+1. Prepared the existing SpendWise project.
+2. Uploaded the project to GitHub.
+3. Connected the GitHub repository to Netlify.
+4. Deployed the website.
+5. Configured a custom Netlify site name.
+6. Tested automatic deployment after pushing an update.
 
-Conditional statements are used to evaluate the user's budget situation.
+## Challenges Encountered
+Document any challenges experienced during GitHub
+upload, Netlify configuration, or deployment.
 
-For example:
-
-```javascript
-if (budget === 0) {
-    message.textContent = "Please set a budget to start tracking.";
-} 
-else if (remaining < 0) {
-    message.textContent = "Warning: You have exceeded your budget!";
-} 
-else if (remaining <= budget * 0.2) {
-    message.textContent = "Careful! You are close to your budget limit.";
-} 
-else {
-    message.textContent = "Great job! You are within your budget.";
-}
+## Lessons Learned
+- How to publish websites using GitHub.
+- How to deploy websites using Netlify.
+- How continuous deployment works.
+- How to test a live website.
